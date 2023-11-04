@@ -41,7 +41,8 @@ MonoBehaviour:
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
   - {fileID: 7587890006846631424}
-  m_RendererFeatureMap: adc0de57c6d2eee5006ed444c2994d69
+  - {fileID: 7669234881490946978}
+  m_RendererFeatureMap: adc0de57c6d2eee5006ed444c2994d69a28b4dca7d986e6a
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -93,10 +94,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 170310469a70c6f46830d405d0ed7cd0, type: 3}
   m_Name: DrawFullscreenFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     renderPassEvent: 500
     blitMaterial: {fileID: 2100000, guid: 9ef21120135e168498b5f61a9aac3f30, type: 2}
+    blitMaterialPassIndex: -1
+    sourceType: 0
+    destinationType: 0
+    sourceTextureId: _SourceTexture
+    destinationTextureId: _DestinationTexture
+    mask:
+      serializedVersion: 2
+      m_Bits: 0
+--- !u!114 &7669234881490946978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170310469a70c6f46830d405d0ed7cd0, type: 3}
+  m_Name: DrawFullscreenFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    renderPassEvent: 0
+    blitMaterial: {fileID: 2100000, guid: 9bb0310439d330d46998a0494b4795b7, type: 2}
     blitMaterialPassIndex: -1
     sourceType: 0
     destinationType: 0
