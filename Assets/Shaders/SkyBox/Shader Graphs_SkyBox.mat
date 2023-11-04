@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mat_PostProcessDistortion
-  m_Shader: {fileID: -6465566751694194690, guid: 73741a2ca33fd734aa21a0928ec0aa79,
+  m_Name: Shader Graphs_SkyBox
+  m_Shader: {fileID: -6465566751694194690, guid: ef7c93a50a1deaf41b7ec8e8b24da685,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -21,11 +21,7 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Texture2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2D_1:
+    - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -43,28 +39,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Float: 0
-    - _Float_1: 0
-    - _Float_2: 0.3
-    - _Float_3: 0.1
-    - _Float_4: 60
-    - _Float_5: 0.25
-    - _Float_6: 0
-    - _Float_7: 0
+    - _Color1: 0
+    - _Color2: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Color: {r: 0.65553576, g: 0.9339623, b: 0.8143926, a: 0}
-    - _Vector2: {r: 0.1, g: 0.03, b: 0, a: 0}
-    - _Vector2_b1: {r: 2, g: 0, b: 0, a: 0}
-    - _Vector2_b2: {r: -2, g: 0, b: 0, a: 0}
-    - _Vector2_b3: {r: 1, g: 2, b: 0, a: 0}
-    - _Vector2_b4: {r: 1, g: -2, b: 0, a: 0}
-    - _Vector2_b5: {r: -1, g: 2, b: 0, a: 0}
-    - _Vector2_b6: {r: -1, g: -2, b: 0, a: 0}
-    - _Vector2b: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.38017088, g: 0.5069741, b: 0.5566038, a: 0}
+    - _Color_1: {r: 0.7689569, g: 0.9433962, b: 0.94001067, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &585416821535614283
+--- !u!114 &2228209637443802253
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

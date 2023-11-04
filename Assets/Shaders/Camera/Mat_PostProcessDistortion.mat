@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mat_wave
-  m_Shader: {fileID: -6465566751694194690, guid: 91d5f006359924e428752b58b17f46db,
+  m_Name: Mat_PostProcessDistortion
+  m_Shader: {fileID: -6465566751694194690, guid: 73741a2ca33fd734aa21a0928ec0aa79,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -21,8 +21,16 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 542f6e26982c0f64c83391a1da3d1645, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture2D:
-        m_Texture: {fileID: 2800000, guid: 42f130cc3a77a1d48804353cae4c7917, type: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2D_1:
+        m_Texture: {fileID: 2800000, guid: 542f6e26982c0f64c83391a1da3d1645, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -39,17 +47,28 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Float: 0
+    - _Float_1: 0
+    - _Float_2: 0.3
+    - _Float_3: 0.1
+    - _Float_4: 60
+    - _Float_5: 0.25
+    - _Float_6: 0
+    - _Float_7: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _amplitude: 0.1
-    - _depth: 0.01
-    - _frequency: 1.5
-    - _maxmask: 1
-    - _minMask: -0.8
-    - _speed: 2
-    m_Colors: []
+    m_Colors:
+    - _Color: {r: 0.65553576, g: 0.9339623, b: 0.8143926, a: 0}
+    - _Vector2: {r: 0.1, g: 0.03, b: 0, a: 0}
+    - _Vector2_b1: {r: 2, g: 0, b: 0, a: 0}
+    - _Vector2_b2: {r: -2, g: 0, b: 0, a: 0}
+    - _Vector2_b3: {r: 1, g: 2, b: 0, a: 0}
+    - _Vector2_b4: {r: 1, g: -2, b: 0, a: 0}
+    - _Vector2_b5: {r: -1, g: 2, b: 0, a: 0}
+    - _Vector2_b6: {r: -1, g: -2, b: 0, a: 0}
+    - _Vector2b: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &6339115230287126988
+--- !u!114 &585416821535614283
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
