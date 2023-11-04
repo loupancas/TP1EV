@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 170310469a70c6f46830d405d0ed7cd0, type: 3}
   m_Name: DrawFullscreenFeature
   m_EditorClassIdentifier: 
-  m_Active: 0
+  m_Active: 1
   settings:
     renderPassEvent: 500
     blitMaterial: {fileID: 2100000, guid: 9ef21120135e168498b5f61a9aac3f30, type: 2}
@@ -120,10 +120,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
-    renderPassEvent: 0
+    renderPassEvent: 1000
     blitMaterial: {fileID: 2100000, guid: 9bb0310439d330d46998a0494b4795b7, type: 2}
     blitMaterialPassIndex: -1
-    sourceType: 0
+    sourceType: 1
     destinationType: 0
     sourceTextureId: _SourceTexture
     destinationTextureId: _DestinationTexture
