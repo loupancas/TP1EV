@@ -37,14 +37,14 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _alpha: 1
-    - _alphaClip: 0.52
+    - _alpha: 0.8
+    - _alphaClip: 0.5
     - _distortion: 80
     - _offset: 0.47
     - _power: 0.34
     - _scale: 5
     m_Colors:
-    - _Color: {r: 0.04656863, g: 0.10882353, b: 0.11911765, a: 1}
+    - _Color: {r: 0.4288359, g: 0.7169812, b: 0.70194393, a: 1}
     - _distortSpeed: {r: 0.01, g: 0, b: 0, a: 0}
     - _speed: {r: 0.01, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
