@@ -120,11 +120,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: 1
   settings:
-    renderPassEvent: 600
+    renderPassEvent: 500
     blitMaterial: {fileID: 2100000, guid: 9bb0310439d330d46998a0494b4795b7, type: 2}
     blitMaterialPassIndex: -1
     sourceType: 0
-    destinationType: 0
+    destinationType: 1
     sourceTextureId: _SourceTexture
     destinationTextureId: _DestinationTexture
     mask:

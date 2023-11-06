@@ -47,19 +47,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Float: 1.17
-    - _Float_1: 1.6
-    - _Float_2: 0.3
-    - _Float_3: 0.1
-    - _Float_4: 60
-    - _Float_5: 0.25
-    - _Float_6: 0.71
-    - _Float_7: 1.03
+    - _Float: 11.6
+    - _Float_1: 19.56
+    - _Float_2: 1.21
+    - _Float_3: 0.43
+    - _Float_4: 60.15
+    - _Float_5: -0.09
+    - _Float_6: 2.4
+    - _Float_7: 2.17
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Color: {r: 0.11035952, g: 0.9433962, b: 0.5914089, a: 0}
-    - _Vector2: {r: 0.1, g: 0.03, b: 0, a: 0}
+    - _Color: {r: 0.6453542, g: 0.9681737, b: 0.9716981, a: 0}
+    - _Vector2: {r: 0.3, g: 2.18, b: 0, a: 0}
     - _Vector2_b1: {r: 2, g: 0, b: 0, a: 0}
     - _Vector2_b2: {r: -2, g: 0, b: 0, a: 0}
     - _Vector2_b3: {r: 1, g: 2, b: 0, a: 0}
