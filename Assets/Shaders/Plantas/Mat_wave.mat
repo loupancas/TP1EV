@@ -41,12 +41,12 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _amplitude: 0.1
+    - _amplitude: -0.35
     - _depth: 0.01
-    - _frequency: 1.5
-    - _maxmask: 1
+    - _frequency: 2.32
+    - _maxmask: 0.18
     - _minMask: -0.8
-    - _speed: 2
+    - _speed: 1
     m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &6339115230287126988
