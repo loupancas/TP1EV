@@ -22,7 +22,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 542f6e26982c0f64c83391a1da3d1645, type: 3}
+        m_Texture: {fileID: 2800000, guid: d0117851e2101e446a71ce7e9c4f3d44, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D:
@@ -30,7 +30,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture2D_1:
-        m_Texture: {fileID: 2800000, guid: 542f6e26982c0f64c83391a1da3d1645, type: 3}
+        m_Texture: {fileID: 2800000, guid: 44fe1c31818d34041bbe83b0b93165e2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -47,18 +47,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Float: 0
-    - _Float_1: 0
+    - _Float: 1.17
+    - _Float_1: 1.6
     - _Float_2: 0.3
     - _Float_3: 0.1
     - _Float_4: 60
     - _Float_5: 0.25
-    - _Float_6: 0
-    - _Float_7: 0
+    - _Float_6: 0.71
+    - _Float_7: 1.03
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Color: {r: 0.65553576, g: 0.9339623, b: 0.8143926, a: 0}
+    - _Color: {r: 0.11035952, g: 0.9433962, b: 0.5914089, a: 0}
     - _Vector2: {r: 0.1, g: 0.03, b: 0, a: 0}
     - _Vector2_b1: {r: 2, g: 0, b: 0, a: 0}
     - _Vector2_b2: {r: -2, g: 0, b: 0, a: 0}

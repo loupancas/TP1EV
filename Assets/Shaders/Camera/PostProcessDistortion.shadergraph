@@ -3094,7 +3094,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "0af1407bb2d845e6b8f8853ce4855e45",
     "m_Id": 0,
-    "m_DisplayName": "MainTex",
+    "m_DisplayName": "_MainTex",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -10574,9 +10574,9 @@
     "m_Guid": {
         "m_GuidSerialized": "6eb0e2eb-735d-4cff-97f0-a9e0d626e710"
     },
-    "m_Name": "MainTex",
+    "m_Name": "_MainTex",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "MainTex",
+    "m_RefNameGeneratedByDisplayName": "_MainTex",
     "m_DefaultReferenceName": "_MainTex",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -10587,7 +10587,7 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"d0117851e2101e446a71ce7e9c4f3d44\",\"type\":3}}",
         "m_Guid": ""
     },
     "isMainTexture": false,
@@ -15475,7 +15475,7 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"instanceID\":0}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"44fe1c31818d34041bbe83b0b93165e2\",\"type\":3}}",
         "m_Guid": ""
     },
     "isMainTexture": false,
