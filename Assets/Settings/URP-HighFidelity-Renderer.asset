@@ -42,7 +42,8 @@ MonoBehaviour:
   - {fileID: -1878332245247344467}
   - {fileID: 7587890006846631424}
   - {fileID: 7669234881490946978}
-  m_RendererFeatureMap: adc0de57c6d2eee5006ed444c2994d69a28b4dca7d986e6a
+  - {fileID: 5961689993889190429}
+  m_RendererFeatureMap: adc0de57c6d2eee5006ed444c2994d69a28b4dca7d986e6a1d12c48a762dbc52
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -82,6 +83,19 @@ MonoBehaviour:
   m_ClusteredRendering: 0
   m_TileSize: 32
   m_IntermediateTextureMode: 0
+--- !u!114 &5961689993889190429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad55383f1530e0642aceeeddf19c4800, type: 3}
+  m_Name: CustomPostProcessRenderer
+  m_EditorClassIdentifier: 
+  m_Active: 1
 --- !u!114 &7587890006846631424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,10 +132,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 170310469a70c6f46830d405d0ed7cd0, type: 3}
   m_Name: DrawFullscreenFeature
   m_EditorClassIdentifier: 
-  m_Active: 1
+  m_Active: 0
   settings:
     renderPassEvent: 500
-    blitMaterial: {fileID: 2100000, guid: 9bb0310439d330d46998a0494b4795b7, type: 2}
+    blitMaterial: {fileID: 2100000, guid: 6ffe6c87ef0a4ec4ba319a7e02f273d7, type: 2}
     blitMaterialPassIndex: -1
     sourceType: 0
     destinationType: 1
