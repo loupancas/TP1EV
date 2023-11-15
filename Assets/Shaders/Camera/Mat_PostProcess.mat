@@ -66,5 +66,5 @@ Material:
     m_Colors:
     - _Color: {r: 0.6501246, g: 0.7540291, b: 0.8679245, a: 0}
     - _DistorsionSpeed: {r: 0.05, g: 0.1, b: 0, a: 0}
-    - _MainTint: {r: 0.7545212, g: 0.8296063, b: 0.9150943, a: 0}
+    - _MainTint: {r: 0.7254922, g: 0.754717, b: 0.30900678, a: 0}
   m_BuildTextureStacks: []

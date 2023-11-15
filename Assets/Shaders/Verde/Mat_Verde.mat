@@ -36,13 +36,13 @@ Material:
     m_Ints: []
     m_Floats:
     - _Boolean: 0
-    - _BuildUp: 0.55
+    - _BuildUp: 0.44
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Ramp: 0.01
+    - _Ramp: 1.69
     m_Colors:
-    - _BaseColor: {r: 0.6886792, g: 0.6521921, b: 0.5678355, a: 0}
-    - _BuildColor: {r: 0.5043788, g: 0.62231904, b: 0.8301887, a: 1}
+    - _BaseColor: {r: 0.06571732, g: 0.6698113, b: 0.403829, a: 0.5529412}
+    - _BuildColor: {r: 0.10348873, g: 0.40518206, b: 0.9622642, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &6609121618956542409
 MonoBehaviour:
